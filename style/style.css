@@ -53,3 +53,43 @@ a {
     color: black;
     border-bottom: 5px solid #08A6E4;
 }
+
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_slogan {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.banner_slogan h1 {
+    font-size: 49px;
+    line-height: 57px;
+    color: black;
+}
+
+.banner_slogan p {
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+    margin-top: 20px;
+}
+
+.banner_slogan button {
+    font-style: 16px;
+    line-height: 22px;
+    color: white;
+    background-color: #08A6E4;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border: 0px;
+    margin-top: 40px;
+    padding: 22px 157px;
+    border-radius: 40px;
+}
+
+.banner_banner img {
+    width: 100%;
+}
