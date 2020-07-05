@@ -483,5 +483,153 @@ h2 {
     border-radius: 23px;
     border: 0px;
     position: relative;
-    bottom: -45px;
+    bottom: -37px;
+}
+
+.contact {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 336px;
+    margin-bottom: 60px;
+}
+
+.contact input {
+    font-size: 16px;
+}
+
+.contact_leftside {
+    width: 342px;
+    position: relative;
+    margin-right: 50px;
+}
+
+.contact_rightside {
+    width: 500px;
+    position: relative;
+}
+
+.contact_rightside input {
+    width: 499px;
+    border: 0px;
+    border-bottom: 1px solid grey;
+    margin: 25px 0px;
+}
+
+.contact_rightside label:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_rightside label {
+    color: #08A6E4;
+    font-size: 11px;
+}
+
+.contact_rightside label:last-of-type input {
+    width: 10%;
+}
+
+.contact_rightside label:last-of-type p {
+    width: 90%;
+    color: #707070;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.contact_rightside button {
+    padding: 20px 97px;
+    background-color: #07ACE6;
+    color: white;
+    border-radius: 23px;
+    border: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.contact_rightside label:nth-of-type(3) input {
+    opacity: 0;
+}
+
+.form_agree p::before {
+    content: " ";
+    display: block;
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    color: green;
+    position: absolute;
+    left: 0px;
+}
+
+.form_agree input:checked+p::before {
+    border: 2px solid #07ACE6;
+    background-color: #07ACE6;
+    background-image: url(../images/Icon\ Check.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* 
+
+.form input:checked+p::before {
+    background-image: url(../images/Icon\ Check.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.342);
+    border: 2px solid green;
+} */
+
+.contact_leftside h2 {
+    font-weight: 49px;
+    margin-bottom: 22px;
+    letter-spacing: 3px;
+}
+
+.contact_leftside p {
+    margin-bottom: 42px;
+}
+
+.contact_leftside ul {
+    display: flex;
+    color: #A5A5A5;
+}
+
+.contact_leftside li:first-of-type {
+    padding-right: 15px;
+}
+
+footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -5px 40px #00000029;
+    height: 89px;
+    background-color: #F7F7F7;
+}
+
+footer .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 110px;
+}
+
+.footer_left h3 {
+    font-size: 26px;
+    color: #08A6E4;
+    margin-bottom: 10px;
+}
+
+.footer_left p {
+    font-size: 11px;
+    color: #A5A5A5;
 }
